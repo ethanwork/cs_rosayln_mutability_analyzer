@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutabilityAnalyzer", "MutabilityAnalyzer\MutabilityAnalyzer\MutabilityAnalyzer.csproj", "{0B11F3E3-C34D-4D55-87D8-D913F0DA2FEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutabilityAnalyzer.CodeFixes", "MutabilityAnalyzer\MutabilityAnalyzer.CodeFixes\MutabilityAnalyzer.CodeFixes.csproj", "{7B3C78BA-F54F-48A9-AA01-D5398C1E04CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutabilityAnalyzer.Package", "MutabilityAnalyzer\MutabilityAnalyzer.Package\MutabilityAnalyzer.Package.csproj", "{682F8245-D0B8-48DF-B50C-1612F8FDB39E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutabilityAnalyzer.Test", "MutabilityAnalyzer\MutabilityAnalyzer.Test\MutabilityAnalyzer.Test.csproj", "{17B58C4A-E439-440A-99DC-15D6247A7E36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutabilityAnalyzer.Vsix", "MutabilityAnalyzer\MutabilityAnalyzer.Vsix\MutabilityAnalyzer.Vsix.csproj", "{DD0FF6A3-2890-4590-BC10-ABAFD92F2B10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpConsoleTestApp", "CSharpConsoleTestApp\CSharpConsoleTestApp.csproj", "{1CB2F1EA-BE35-4488-B1CE-583AA88A538A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B11F3E3-C34D-4D55-87D8-D913F0DA2FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B11F3E3-C34D-4D55-87D8-D913F0DA2FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B11F3E3-C34D-4D55-87D8-D913F0DA2FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B11F3E3-C34D-4D55-87D8-D913F0DA2FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B3C78BA-F54F-48A9-AA01-D5398C1E04CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3C78BA-F54F-48A9-AA01-D5398C1E04CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3C78BA-F54F-48A9-AA01-D5398C1E04CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3C78BA-F54F-48A9-AA01-D5398C1E04CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682F8245-D0B8-48DF-B50C-1612F8FDB39E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682F8245-D0B8-48DF-B50C-1612F8FDB39E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682F8245-D0B8-48DF-B50C-1612F8FDB39E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682F8245-D0B8-48DF-B50C-1612F8FDB39E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B58C4A-E439-440A-99DC-15D6247A7E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B58C4A-E439-440A-99DC-15D6247A7E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B58C4A-E439-440A-99DC-15D6247A7E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B58C4A-E439-440A-99DC-15D6247A7E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0FF6A3-2890-4590-BC10-ABAFD92F2B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0FF6A3-2890-4590-BC10-ABAFD92F2B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0FF6A3-2890-4590-BC10-ABAFD92F2B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0FF6A3-2890-4590-BC10-ABAFD92F2B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB2F1EA-BE35-4488-B1CE-583AA88A538A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB2F1EA-BE35-4488-B1CE-583AA88A538A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB2F1EA-BE35-4488-B1CE-583AA88A538A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB2F1EA-BE35-4488-B1CE-583AA88A538A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F53CF51B-7DED-4397-8480-20CEC66C9E1B}
+	EndGlobalSection
+EndGlobal

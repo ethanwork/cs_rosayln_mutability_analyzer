@@ -1,1 +1,1 @@
-# cs_rosayln_mutability_analyzer
+for mutability analyzer it doesn't currently catch doing a++ or a-- mutations on class member variables it appears, but does catch them for regular variables. Need to check about prefix ++a and --a operators also still.
