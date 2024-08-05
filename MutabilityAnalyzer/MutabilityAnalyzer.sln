@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutabilityAnalyzer", "MutabilityAnalyzer\MutabilityAnalyzer\MutabilityAnalyzer.csproj", "{0B11F3E3-C34D-4D55-87D8-D913F0DA2FEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutabilityAnalyzer", "MutabilityAnalyzer\MutabilityAnalyzer\MutabilityAnalyzer.csproj", "{0B11F3E3-C34D-4D55-87D8-D913F0DA2FEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutabilityAnalyzer.CodeFixes", "MutabilityAnalyzer\MutabilityAnalyzer.CodeFixes\MutabilityAnalyzer.CodeFixes.csproj", "{7B3C78BA-F54F-48A9-AA01-D5398C1E04CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutabilityAnalyzer.CodeFixes", "MutabilityAnalyzer\MutabilityAnalyzer.CodeFixes\MutabilityAnalyzer.CodeFixes.csproj", "{7B3C78BA-F54F-48A9-AA01-D5398C1E04CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutabilityAnalyzer.Package", "MutabilityAnalyzer\MutabilityAnalyzer.Package\MutabilityAnalyzer.Package.csproj", "{682F8245-D0B8-48DF-B50C-1612F8FDB39E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutabilityAnalyzer.Package", "MutabilityAnalyzer\MutabilityAnalyzer.Package\MutabilityAnalyzer.Package.csproj", "{682F8245-D0B8-48DF-B50C-1612F8FDB39E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutabilityAnalyzer.Test", "MutabilityAnalyzer\MutabilityAnalyzer.Test\MutabilityAnalyzer.Test.csproj", "{17B58C4A-E439-440A-99DC-15D6247A7E36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutabilityAnalyzer.Test", "MutabilityAnalyzer\MutabilityAnalyzer.Test\MutabilityAnalyzer.Test.csproj", "{17B58C4A-E439-440A-99DC-15D6247A7E36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutabilityAnalyzer.Vsix", "MutabilityAnalyzer\MutabilityAnalyzer.Vsix\MutabilityAnalyzer.Vsix.csproj", "{DD0FF6A3-2890-4590-BC10-ABAFD92F2B10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutabilityAnalyzer.Vsix", "MutabilityAnalyzer\MutabilityAnalyzer.Vsix\MutabilityAnalyzer.Vsix.csproj", "{DD0FF6A3-2890-4590-BC10-ABAFD92F2B10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpConsoleTestApp", "CSharpConsoleTestApp\CSharpConsoleTestApp.csproj", "{1CB2F1EA-BE35-4488-B1CE-583AA88A538A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTestApp1", "CSharpConsoleTestApp\ConsoleTestApp1.csproj", "{1CB2F1EA-BE35-4488-B1CE-583AA88A538A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTestApp2", "..\..\..\..\GitLab\cs_rosalyn_analyzer\MutabilityAnalyzer\ConsoleApp3\ConsoleApp3\ConsoleTestApp2.csproj", "{BEC06849-671F-4474-866E-3C75C1C6126C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{1CB2F1EA-BE35-4488-B1CE-583AA88A538A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CB2F1EA-BE35-4488-B1CE-583AA88A538A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CB2F1EA-BE35-4488-B1CE-583AA88A538A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC06849-671F-4474-866E-3C75C1C6126C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC06849-671F-4474-866E-3C75C1C6126C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC06849-671F-4474-866E-3C75C1C6126C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC06849-671F-4474-866E-3C75C1C6126C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
